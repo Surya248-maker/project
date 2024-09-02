@@ -1,4 +1,5 @@
 .top{ 
+    box-sizing: border-box;
     Background-color:black ; 
     Height: 70px; 
     Width: 100%;
@@ -6,7 +7,7 @@
 *{
     font-family:godaddy;
     margin: 0;
-    padding: 0git;
+    padding: 0;
 }
 @font-face {
     font-family:godaddy;
@@ -24,10 +25,13 @@ A > img{
     Height: 80px; 
     Padding-left: 40px; 
 }
+.bascket{
+    font-size: 30px;
+}
 li{ 
     Color: white; 
     List-style-type: none; 
-    Padding-left: 55px; 
+    Padding-left: 40px; 
     Margin-top: 30px; 
     font-size: 14px;
 }
@@ -37,14 +41,15 @@ Li:hover{
 } 
 .par{ 
     Height: 90px; 
-    Width: 1300px;
+    Width: 98%;
     Display:flex; 
     Background-color: #a9a9ae; 
     Margin-top: 40px;  
-    Margin-left: 30px; 
+    Margin-left: 20px; 
     Border-radius: 40px; 
 }
 .c1{ 
+    box-sizing: border-box;
     Top: 10%; 
     Left: 10%; 
     Margin-top: 10px; 
@@ -53,7 +58,7 @@ Li:hover{
     Align-items: center; 
     Border-radius: 30px; 
     Background:#FFFFFF; 
-    Width: 800px; 
+    Width: 70%; 
     Height: 70px; 
     Box-shadow: 7px 10px 6px gray; 
 } 
@@ -67,13 +72,13 @@ Li:hover{
     Border: none; 
     Background: transparent; 
     Color: black; 
-    Width: 500px; 
+    Width: 60%; 
 }
 .search{ 
     Margin-left: 100px; 
     Height: 55px; 
     Width: 100px; 
-    Padding-right: 100px; 
+    margin-right: 100px; 
     Background:#1d9b88; 
     color: white;
     Border-radius: 4px; 
@@ -88,9 +93,9 @@ Li:hover{
     background-color: #545457;
 }
 .side{
+    box-sizing: border-box;
     Height:70px ; 
-    Width: 350px; 
-    Margin-left: 50px; 
+    Width: 30%; 
     Margin-top: 10px; 
     Display: flex;
 }
@@ -102,13 +107,15 @@ Li:hover{
     Width: 50px; 
     Margin-left: 30px; 
     Margin-top: 10px; 
+    font-size: medium;
     } 
 .side2 > h4{ 
-    Width: 350px; 
+    Width: 145px; 
     Margin-left: 5px; 
     Font-size: small; 
 }
 .back{
+    box-sizing: border-box;
     Height: 450px; 
     Width: 100%; 
     Display: flex; 
@@ -126,11 +133,12 @@ Li:hover{
     padding-left: 20px;
 }
 .pside{
+    box-sizing: border-box;
     background-color: rgb(172, 236, 215);
     Background-size: 22% 400px; 
     Height: 400px; 
-    Width: 23%; 
-    Margin-left: 80px; 
+    Width: 20%; 
+    Margin-left: 70px; 
     margin-right: 40px;
     Border-radius: 20px; 
     text-align: center;
@@ -148,17 +156,20 @@ Li:hover{
     color: grey;
     border-color: white;
     Box-shadow: 2px 2px 4px black;
+    cursor: pointer;
 }
 .h{
+    box-sizing: border-box;
     Text-align: center; 
     Font-size:xx-large; 
     Word-spacing: 20px; 
     Letter-spacing: 8px;
 }
 .three{
+    box-sizing: border-box;
     Display: flex; 
     Height: 150px; 
-    Width: 100%; 
+    Width: 98%; 
     Justify-content:center;
 }
 .three> input{
@@ -176,38 +187,44 @@ Li:hover{
 .three> input:hover{
     Border-color: black; 
     Box-shadow: 2px 2px 4px black;
+    cursor: pointer;
 }
 .dom{ 
+    box-sizing: border-box;
     Height: 600px; 
-    Width: 98%; 
+    Width: 100%; 
     Display: grid; 
     Grid-template-columns:48% 48%;
     Grid-template-rows:300px 300px;
     gap: 10px;
 }
 .div1{
+    box-sizing: border-box;
     Grid-area: h;   
     Background-image: url(div1.webp);
-    Background-size: 98% 600px; 
+    Background-size: 100% 600px; 
     Background-repeat: no-repeat; 
     Border-radius: 50px;
     margin-left: 50px;
 }
 .div2{ 
+    box-sizing: border-box;
     Grid-area: c; 
     Background-image: url(div2.webp);  
-    Background-size: 98% 300px; 
+    Background-size: 100% 300px; 
     Background-repeat: no-repeat; 
     Border-radius: 50px; 
 }
 .div3{ 
+    box-sizing: border-box;
     Grid-area: f; 
     Background-image: url(div3.webp);  
-    Background-size: 98% 300px; 
+    Background-size: 100% 300px; 
     Background-repeat: no-repeat;  
     Border-radius: 50px; 
 }
 .dom{ 
+    box-sizing: border-box;
     Grid-template-areas:'h c'
     'h f';
 }
@@ -232,6 +249,7 @@ Li:hover{
 .div1 > input:hover{ 
     Background-color: white; 
     Color: black; 
+    cursor: pointer;
 } 
 .div2 > h3{ 
     Margin-top: 40px; 
@@ -252,7 +270,8 @@ Li:hover{
 } 
 .div2 > input:hover{ 
     Background-color: white; 
-    Color: black; 
+    Color: black;
+    cursor: pointer; 
 } 
 .div3 > h3{ 
     Margin-top: 80px; 
@@ -273,8 +292,10 @@ Li:hover{
 .div3 > input:hover{ 
     Background-color: white; 
     Color: black; 
+    cursor: pointer;
 }
 .h1{
+    box-sizing: border-box;
     height: 100px;
     width: 98%;
     margin-top: 100px;
@@ -282,6 +303,7 @@ Li:hover{
     Font-size:x-large; 
 }
 .p1{
+    box-sizing: border-box;
     background-image: url(spimg.webp);
     background-size: 100% 400px;
     height: 400px;
@@ -290,6 +312,7 @@ Li:hover{
     border-radius: 20px;
 }
 .t{
+    box-sizing: border-box;
     display: flex;
     gap: 50px;
     margin-left: 50px;
@@ -298,14 +321,17 @@ Li:hover{
 .t1:hover{
     background-color: #c3c3cc;
     border-radius:25px;
+    cursor: pointer;
 }
 .t2:hover{
     background-color: #c3c3cc;
     border-radius:25px;
+    cursor: pointer;
 }
 .t3:hover{
     background-color:#c3c3cc;
     border-radius:25px;
+    cursor: pointer;
 }
 .i{
     text-align: center;
@@ -320,8 +346,10 @@ Li:hover{
 .i:hover{
     background-color: white;
     color: black;
+    cursor: pointer;
 }
 .raheim{
+    box-sizing: border-box;
     background-image: url(Raheim-Thompson-D.webp);
     background-size: 100% 900px;
     height: 900px;
@@ -333,6 +361,7 @@ Li:hover{
     border: solid white;
 }
 .in{
+    box-sizing: border-box;
     background-color: white;
     height:800px;
     width: 53%;
@@ -354,6 +383,7 @@ Li:hover{
     margin-top: 60%;
 }
 .img{
+    box-sizing: border-box;
     background-image: url(innerdivimg.webp);
     background-size: 100% 300px;
     background-repeat: no-repeat;
@@ -371,6 +401,7 @@ Li:hover{
     letter-spacing: 10px;
 }
 .h2{
+    box-sizing: border-box;
     height: 100px;
     width: 98%;
     margin-left: 40px;
@@ -378,34 +409,45 @@ Li:hover{
     Font-size:x-large; 
 }
 .star{
-    width: fit-content;
+    box-sizing: border-box;
     margin-top: 60px;
-    margin-left: 50px;
+    margin-left: 20px;
     display: flex;
     gap: 10px;
+    box-sizing: border-box;
 }
 .s1{
+    padding: 10px;
     background-color:#c3c3cc;
     border-radius: 10px;
+    width: 30%;
 }
 .s2{
+    padding: 10px;
     background-color:#c3c3cc;
     border-radius: 10px;
+    width: 30%;
 }
 .s3{
+    padding: 10px;
     background-color:#c3c3cc;
     border-radius: 10px;
+    width: 30%;
+}
+.s3 h1{
+    font-size:xx-large
 }
 .ce{
     text-align: center;
     font-size:smaller;
 }
 .b{
+    box-sizing: border-box;
     Height: 600px; 
-    Width: 100%; 
+    Width: 96%; 
     display: flex;
-    gap:20px;
-    margin-left: 50px;
+    column-gap: 10px;
+    margin-left: 60px;
 }
 .b1{
     background-image: url(ju.webp);
@@ -451,33 +493,11 @@ Li:hover{
     margin-left: 30px;
     font-size: xx-large;
 }
-.b4{
-    background-color: #dedef0;
-    Background-size: 100% 500px; 
-    height: 500px;
-    width: 30%;
-    border-radius: 20px;
-    margin-left: 45px;
-    display: ;
-}
-.ph{
-    margin-left: 30px;
-    font-size: xx-large;
-}
-.ph1 h1{
-    margin-left: 20px;
-}
-.sid{
-    background-image: url(dom\ side.webp);
-    Background-size: 100% 500px; 
-    height: 500px;
-    width: 30%;
-    border-radius: 20px;
-}
 .blue{
+    box-sizing: border-box;
     background-color: rgb(194, 253, 253);
     height: 300px;
-    width: 100%;
+    width: 98%;
     border-radius: 10px;
     border: solid white;
 }
@@ -493,12 +513,12 @@ Li:hover{
     word-spacing: 20px;
 }
 .bu{
-    Margin-left: 400px;  
+    Margin-left: 10px;  
     Border: solid; 
     border-radius: 20px;
     Background: transparent; 
     Color: rgb(255, 255, 255); 
-    Width: 500px; 
+    Width: 80%; 
     height: 50px;
 }
 .bus{
@@ -510,12 +530,650 @@ Li:hover{
 .bus:hover{
     background-color: black;
     color: white;
+    cursor: pointer;
 }
 .last{
+    box-sizing: border-box;
     margin-top: 90px;
     background-image: url(suraiya.jpg);
     background-size: 100% 400px;
     height:400px;
-    width: 100%;
+    width: 98%;
     border-radius: 10px ;
+}
+.footer{
+    background-color: black;
+    height:500px;
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.f1 h3{
+    color: white;
+    margin-left: 20px;
+    margin-top: 60px;
+}
+.li{
+    font-weight: 100;
+    font-size: x-small;
+}
+.f2 h3{
+    color: white;
+    margin-left: 20px;
+    margin-top: 60px;
+}
+.f3 h3{
+    color: white;
+    margin-left: 20px;
+    margin-top: 60px;
+}
+.f4 h3{
+    color: white;
+    margin-left: 20px;
+    margin-top: 60px;
+}
+.f5 h3{
+    color: white;
+    margin-left: 20px;
+    margin-top: 60px;
+}
+.f6 h3{
+    color: white;
+    margin-left: 20px;
+    margin-top: 60px;
+}
+@media screen and (max-width:425px) {
+    .top{ 
+        box-sizing: border-box;
+        Background-color:black ; 
+        Height: 70px; 
+        Width: 100%;
+    }
+    .tot{
+        margin-left: 20px;
+    }
+    *{
+        font-family:godaddy;
+        margin: 0;
+        padding: 0;
+    }
+    @font-face {
+        font-family:godaddy;
+        src: url(GD-Boing-Bold.ttf);
+    }
+    .cl{
+        display: none;
+    }
+    .logo{ 
+        Padding-left: 5px; 
+        Margin-top: 0%; 
+    }
+    Ul{ 
+        Display: flex; 
+        Padding-left: 20px; 
+    }
+    A > img{ 
+        Height: 80px; 
+        Padding-left: 40px; 
+    }
+    .bascket{
+        font-size: 30px;
+    }
+    li{ 
+        Color: white; 
+        List-style-type: none; 
+        Padding-left: 40px; 
+        Margin-top: 30px; 
+        font-size: 14px;
+    }
+    Li:hover{ 
+        color: aliceblue; 
+        Text-shadow: 5px 5px 10px rgb(110, 194, 243); 
+    } 
+    .par{ 
+        Height: 90px; 
+        Width: 99%;
+        Display:flex; 
+        Background-color: #a9a9ae; 
+        Margin-top: 40px;  
+        Margin-left: 2px; 
+        Border-radius: 40px; 
+    }
+    .c1{ 
+        Top: 10%;  
+        Margin-top: 10px; 
+        Margin-left:30px; 
+        Display: flex; 
+        Align-items: center; 
+        Border-radius: 30px; 
+        Background:#FFFFFF; 
+        Width: 80%; 
+        Height: 70px; 
+        Box-shadow: 7px 10px 6px gray; 
+    } 
+    .butt{
+        Padding-left: 20px; 
+        Padding-top: 7px; 
+    }
+    .c1 >.one{ 
+        Margin-left: 5px; 
+        Outline: none; 
+        Border: none; 
+        Background: transparent; 
+        Color: black; 
+        Width: 500%; 
+    }
+    .search{ 
+        Margin-left: 5px; 
+        margin-right: 20px;
+        Height: 55px; 
+        Width: 20%;
+        Background:#1d9b88; 
+        color: white;
+        Border-radius: 4px; 
+        border-style: initial; 
+        Text-align: center; 
+        Border: 5px; 
+        font-size:xx-small;
+        Border-color: #5F5F6E; 
+        Box-shadow:  2px 2px 6px gray;
+    }
+    .search:hover{
+        background-color: #545457;
+    }
+    .side{
+        display: none;
+        Height:70px ; 
+        Width: 250px; 
+        Margin-top: 10px; 
+    }
+    .side1{
+        display: none;
+        Margin-left: 10px; 
+        Margin-top: 17px; 
+    }
+    .side > h3{ 
+        Width: 50px; 
+        Margin-left: 30px; 
+        Margin-top: 10px; 
+        font-size: medium;
+        } 
+    .side2 > h4{ 
+        display: none;
+        Width: 145px; 
+        Margin-left: 5px; 
+        Font-size: small; 
+    }
+    .back{
+        Height: 450px; 
+        Width: 100%; 
+        Display: flex; 
+        Margin-top: 40px;
+    }
+    .pic{
+        background-image: url(photographer\ landscape.jpg);
+        Background-size: 100% 395px; 
+        Height: 400px; 
+        Width: 70%; 
+        Background-repeat: no-repeat; 
+        Margin-left: 50px; 
+        Border-radius: 20px;
+        color: aliceblue;
+        padding-left: 20px;
+    }
+    .pside{
+        display: none;
+        background-color: rgb(172, 236, 215);
+        Background-size: 22% 400px; 
+        Height: 400px; 
+        Width: 18%; 
+        Margin-left: 70px; 
+        margin-right: 40px;
+        Border-radius: 20px; 
+        text-align: center;
+    }
+    .lm{
+        Height: 45px; 
+        Width: 100px; 
+        text-align: center;
+        background:black;
+        Border-radius: 4px; 
+        border-style: initial;
+        color: azure; 
+    }
+    .lm:hover{
+        color: grey;
+        border-color: white;
+        Box-shadow: 2px 2px 4px black;
+        cursor: pointer;
+    }
+    .h{
+        Text-align: center; 
+        Font-size:xx-large; 
+        Word-spacing: 20px; 
+        Letter-spacing: 8px;
+    }
+    .three{
+        Display: flex; 
+        Height: 150px; 
+        Width: 98%; 
+        Justify-content:center;
+    }
+    .three> input{
+        Height: 50px; 
+        Width: 70%; 
+        Background-color: #FFFFFF; 
+        Margin-left: 25px; 
+        Margin-top: 40px; 
+        Border-radius: 40px; 
+        Border: 3px; 
+        Border-style:solid; 
+        Border-color: lightgrey; 
+        letter-spacing: 2px;
+    }
+    .three> input:hover{
+        Border-color: black; 
+        Box-shadow: 2px 2px 4px black;
+        cursor: pointer;
+    }
+    .dom{ 
+        display: none; 
+        Width: 100%; 
+        Display: grid; 
+        Grid-template-columns:48% 48%;
+        Grid-template-rows:300px 300px;
+        gap: 10px;
+    }
+    .div1{
+        Grid-area: h;   
+        Background-image: url(div1.webp);
+        Background-size: 100% 600px; 
+        Background-repeat: no-repeat; 
+        Border-radius: 50px;
+        margin-left: 50px;
+    }
+    .div2{ 
+        Grid-area: c; 
+        Background-image: url(div2.webp);  
+        Background-size: 100% 200px; 
+        Background-repeat: no-repeat; 
+        Border-radius: 50px; 
+    }
+    .div3{ 
+        Grid-area: f; 
+        Background-image: url(div3.webp);  
+        Background-size: 100% 200px; 
+        Background-repeat: no-repeat;  
+        Border-radius: 50px; 
+    }
+    .dom{ 
+        Grid-template-areas:'h c'
+        'h f';
+    }
+    .div1 > h1{ 
+        display: none;
+        Margin-top: 300px; 
+        Margin-left: 20px; 
+    } 
+    .div1 > p{ 
+        display: none;
+        Margin-top: 10px; 
+        Margin-left: 20px; 
+        Font-size: small; 
+    } 
+    .div1 > input{ 
+        Height: 50px; 
+        Width: 50%; 
+        font-size: xx-small;
+        Margin-top: 60px; 
+        Margin-left: 70px; 
+        Background-color: black; 
+        Color: #FFFFFF; 
+        Border-radius: 10px; 
+    } 
+    .div1 > input:hover{ 
+        Background-color: white; 
+        Color: black; 
+        cursor: pointer;
+    } 
+    .div2 > h3{ 
+        display: none;
+        Margin-top: 10px; 
+        Margin-left: 40px; 
+    } 
+    .div2 > p{ 
+        display: none;
+        Margin-left: 40px; 
+        Margin-top: 4px; 
+        Font-size:medium; 
+    } 
+    .div2 > input{ 
+        Height: 50px; 
+        Width: 40%; 
+        font-size: xx-small;
+        Background-color: black; 
+        Color: white; 
+        margin-top: 130px;
+        Border-radius: 10px; 
+    } 
+    .div2 > input:hover{ 
+        Background-color: white; 
+        Color: black;
+        cursor: pointer; 
+    } 
+    .div3 > h3{ 
+        display: none;
+        Margin-top: 10px; 
+        Margin-left: 40px; 
+    } 
+    .div3 > p{ 
+        display: none;
+        Margin-left: 40px; 
+        Margin-top: 1px; 
+    } 
+    .div3 > input{ 
+        Height: 45px; 
+        Width: 40%; 
+        Margin-top: 40px; 
+        Background-color: black; 
+        Color: white; 
+        Border-radius: 10px; 
+        font-size: xx-small;
+        margin-top: 150px;
+    } 
+    .div3 > input:hover{ 
+        Background-color: white; 
+        Color: black; 
+        cursor: pointer;
+    }
+    .h1{
+        height: 100px;
+        width: 98%;
+        margin-top: 300px;
+        Text-align: center; 
+        Font-size:x-large; 
+    }
+    .p1{
+        background-image: url(spimg.webp);
+        background-size: 100% 400px;
+        height: 400px;
+        width: 93%;
+        margin-top: 100px;
+        margin-left: 20px;
+        border-radius: 20px;
+    }
+    .t{
+        display: flex;
+        gap: 15px;
+        margin-left: 25px;
+        margin-top: 50px;
+    }
+    .m{
+        display: none;
+    }
+    .t1:hover{
+        background-color: #c3c3cc;
+        border-radius:25px;
+        cursor: pointer;
+    }
+    .t2:hover{
+        background-color: #c3c3cc;
+        border-radius:25px;
+        cursor: pointer;
+    }
+    .t3:hover{
+        background-color:#c3c3cc;
+        border-radius:25px;
+        cursor: pointer;
+    }
+    .i{
+        text-align: center;
+        margin-top: 30px;
+        margin-left: 46%;
+        height: 50px;
+        width: 10%;
+        background-color: black;
+        border-radius: 10px;
+        color: white;
+    }
+    .i:hover{
+        background-color: white;
+        color: black;
+        cursor: pointer;
+    }
+    .raheim{
+        background-image: url(Raheim-Thompson-D.webp);
+        background-size: 100% 700px;
+        height: 700px;
+        width: 95%;
+        margin-top: 40px;
+        margin-left: 20px;
+        border-radius: 20px;
+        font-size:x-small;
+        background-repeat: no-repeat;
+        border: solid white;
+    }
+    .in{
+        background-color: white;
+        height:650px;
+        width: 53%;
+        margin-top: 25px;
+        margin-left: 45%;
+        border-radius: 10px;
+        border: solid white;
+    }
+    .in h1{
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    .i1{
+        display: flex;
+    }
+    .pro{
+        width: 200px;
+        margin-left: 25px;
+        margin-top: 60%;
+    }
+    .img{
+        background-image: url(innerdivimg.webp);
+        background-size: 100% 200px;
+        background-repeat: no-repeat;
+        height:200px;
+        width: 100%;
+        margin-top: 35%;
+        margin-left: 20px;
+        margin-right: 20px;
+        border-radius: 20px;
+    }
+    .left{
+        margin-left: 60px;
+        font-size:xx-large;
+        word-spacing: 10px;
+        letter-spacing: 10px;
+    }
+    .h2{
+        height: 100px;
+        width: 98%;
+        margin-left: 5px;
+        margin-top: 100px;
+        Font-size:large; 
+    }
+    .star{
+        width: 95%;
+        margin-top: 60px;
+        margin-left: 20px;
+        display: flex;
+        gap: 10px;
+        box-sizing: border-box;
+    }
+    .s1{
+        padding: 5px;
+        background-color:#c3c3cc;
+        border-radius: 10px;
+        width: 30%;
+    }
+    .s1 h1{
+        font-size:x-small;
+    }
+    .s1 p{
+        font-size: small;
+    }
+    .s2{
+        padding: 5px;
+        background-color:#c3c3cc;
+        border-radius: 10px;
+        width: 30%;
+    }
+    .s2 h1{
+        font-size: x-small;
+    }
+    .s2 p{
+        font-size: small;
+    }
+    .s3{
+        padding: 5px;
+        background-color:#c3c3cc;
+        border-radius: 10px;
+        width: 30%;
+    }
+    .s3 h1{
+        font-size:x-small;
+    }
+    .s3 p{
+        font-size: small;
+    }
+    .ce{
+        text-align: center;
+        font-size:smaller;
+        margin-top: 50px;
+    }
+    .b{
+        margin-top: 20px;
+        box-sizing: border-box;
+        Height: 600px; 
+        Width: 96%; 
+        display: flex;
+        column-gap:10px;
+        margin-left: 16px;
+    }
+    .b1{
+        background-image: url(ju.webp);
+        Background-size: 100% 500px; 
+        height: 500px;
+        width: 30%;
+        border-radius: 20px;
+    }
+    .b2{
+        background-image: url(http.webp);
+        Background-size: 100% 500px; 
+        height: 500px;
+        width: 30%;
+        border-radius: 20px;
+    }
+    .b3{
+        background-color:#dedef0;
+        Background-size: 100% 500px; 
+        height: 500px;
+        width: 30%;
+        border-radius: 20px;
+    }
+    .b1 p{
+        Margin-left: 20px; 
+        Font-size:large;
+        color: white;
+    }
+    .b2 p{
+        Margin-left: 20px; 
+        Font-size:large;
+        color: white;
+    }
+    .b3 p{
+        Margin-top:50px; 
+        Margin-left: 20px; 
+        Font-size:x-large;
+        color:black;
+        justify-content: center;
+        
+    }
+    .g{
+        margin-top: 50px;
+        margin-left: 30px;
+        font-size: xx-large;
+    }
+    .b4{
+        background-color: #dedef0;
+        Background-size: 100% 500px; 
+        height: 500px;
+        width: 30%;
+        border-radius: 20px;
+        margin-left: 45px;
+        display: ;
+    }
+    .ph{
+        margin-left: 30px;
+        font-size: xx-large;
+    }
+    .ph1 h1{
+        margin-left: 20px;
+    }
+    .sid{
+        background-image: url(dom\ side.webp);
+        Background-size: 100% 500px; 
+        height: 500px;
+        width: 30%;
+        border-radius: 20px;
+    }
+    .blue{
+        background-color: rgb(194, 253, 253);
+        height: 350px;
+        width: 98%;
+        border-radius: 10px;
+        border: solid white;
+    }
+    .blue h1{
+        letter-spacing: 5px;
+        font-size: xx-large;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+        margin-top: 60px;
+    }
+    .blue p{
+        text-align: center;
+        word-spacing: 20px;
+    }
+    .bu{
+        Margin-left:2px; 
+        Border: solid; 
+        border-radius: 20px;
+        Background: transparent; 
+        Color: rgb(255, 255, 255); 
+        Width: 100%; 
+        height: 50px;
+        text-align: center;
+    }
+    .bus{
+        margin-top: 10px;
+        margin-left: 160px;
+        border: solid;
+        height: 50px;
+        width: 90px;
+        border-radius: 20px;
+    }
+    .bus:hover{
+        background-color: black;
+        color: white;
+        cursor: pointer;
+    }
+    .last{
+        margin-top: 90px;
+        background-image: url(suraiya.jpg);
+        background-size: 100% 200px;
+        height:200px;
+        width: 98%;
+        border-radius: 10px ;
+    }
+    .footer{
+        display: none;
+    }
 }
